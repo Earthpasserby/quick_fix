@@ -24,7 +24,7 @@ export default function Hero() {
           and availability. Like a ride-hailing app, but for getting things
           fixed fast.
         </p>
-        <div className="mt-6 flex flex-wrap gap-3">
+        <div className="mt-6 flex flex-wrap gap-3 mb-2">
           <a
             href="#"
             className="bg-brand hover:bg-brand-dark text-white font-semibold px-5 py-3 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-brand/25"
@@ -33,7 +33,7 @@ export default function Hero() {
           </a>
           <a
             href="#how"
-            className="font-semibold text-slate-300 hover:text-brand transition-colors duration-300"
+            className="font-semibold text-slate-300 px-5 py-3 hover:text-brand transition-colors duration-300"
           >
             See how it works →
           </a>

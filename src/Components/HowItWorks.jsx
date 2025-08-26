@@ -10,7 +10,7 @@ export default function HowItWorks() {
           { step: 2, text: "Choose an artisan by skill, rating, and ETA." },
           {
             step: 3,
-            text: "Track arrival, chat, and pay securely after the job.",
+            text: "Track arrival, chat, call and pay securely after the job.",
           },
         ].map((item, index) => (
           <div
