@@ -47,8 +47,8 @@ export default function Hero() {
         <div className="relative group">
           <img
             className="w-full rounded-2xl shadow-2xl transition-transform duration-500 group-hover:scale-105"
-            alt="QuickFix hero"
-            src="https://images.unsplash.com/photo-1581092334395-6c61b23452f3?q=80&w=1600&auto=format&fit=crop"
+            alt="Artisan working - QuickFix service"
+            src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1600&auto=format&fit=crop"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
         </div>
