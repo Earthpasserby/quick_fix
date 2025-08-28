@@ -2,8 +2,11 @@ export default function Navbar() {
   return (
     <header className="py-4 sticky top-0 z-50 backdrop-blur-md bg-black/20 border-b border-white/10">
       <nav className="max-w-6xl mx-auto px-4 flex items-center justify-between">
-        <div className="font-extrabold text-xl text-white hover:text-brand transition-colors duration-300">
-          QuickFix
+        <div className="flex items-center gap-2">
+          {/* Replace span with <img src="/logo.svg" alt="QuickFix" className="h-7 w-auto" /> when logo asset is ready */}
+          <span className="font-extrabold text-xl text-white hover:text-brand transition-colors duration-300">
+            QuickFix
+          </span>
         </div>
         <div className="hidden sm:flex gap-4 text-sm">
           <a

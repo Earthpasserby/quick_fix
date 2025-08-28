@@ -3,14 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QuickFix — On-demand Artisans Near You</title>
+    <meta
+      name="description"
+      content="QuickFix connects you to verified local artisans — plumbers, electricians, carpenters and more — on-demand, near you."
+    />
+    <meta name="theme-color" content="#0ea5e9" />
+
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="QuickFix — On-demand Artisans Near You"
+    />
+    <meta
+      property="og:description"
+      content="Get trusted artisans on-demand, near you. Hassle-free bookings, secure payments, and verified pros."
+    />
+    <meta property="og:image" content="/vite.svg" />
+    <meta property="og:url" content="https://quickfix.example" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="QuickFix — On-demand Artisans Near You"
+    />
+    <meta
+      name="twitter:description"
+      content="Find and book verified artisans near you — fast, secure, and hassle-free."
+    />
+    <meta name="twitter:image" content="/vite.svg" />
+
+    <script
+      defer
+      data-domain="quickfix.local"
+      src="https://plausible.io/js/script.js"
+    ></script>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/framer-motion@11.0.0/dist/framer-motion.js"></script>
     <script>
       tailwind.config = {
         theme: {
           extend: {
+            fontFamily: {
+              sans: [
+                "Inter",
+                "system-ui",
+                "Avenir",
+                "Helvetica",
+                "Arial",
+                "sans-serif",
+              ],
+            },
+            borderRadius: {
+              xl: "0.75rem",
+              "2xl": "1rem",
+            },
+            boxShadow: {
+              brand: "0 10px 25px -10px rgba(14, 165, 233, 0.35)",
+            },
             colors: {
               brand: {
                 DEFAULT: "#0ea5e9",

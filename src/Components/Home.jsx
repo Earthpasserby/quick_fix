@@ -1,10 +1,12 @@
 import Navbar from "./Navbar.jsx";
 import Hero from "./Hero.jsx";
 import Features from "./Features.jsx";
+import NearbyDemo from "./NearbyDemo.jsx";
 import HowItWorks from "./HowItWorks.jsx";
 import CTA from "./CTA.jsx";
 import WaitlistForm from "./WaitlistForm.jsx";
 import Footer from "./Footer.jsx";
+import ConsentBanner from "./ConsentBanner.jsx";
 
 export default function Home() {
   return (
@@ -13,6 +15,7 @@ export default function Home() {
       <main>
         <Hero />
         <Features />
+        <NearbyDemo />
         <HowItWorks />
         <section className="max-w-6xl mx-auto px-4 my-20">
           <div className="rounded-2xl border border-slate-700/50 p-6 md:p-8 bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm hover:border-brand/50 transition-all duration-500 hover:scale-[1.02] animate-slide-up">
@@ -32,6 +35,7 @@ export default function Home() {
         <CTA />
       </main>
       <Footer />
+      <ConsentBanner />
     </>
   );
 }
