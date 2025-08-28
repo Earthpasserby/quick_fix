@@ -14,7 +14,7 @@ export default function WaitlistForm() {
     try {
       // Replace this URL with your actual Google Form URL
       const googleFormUrl =
-        "https://docs.google.com/forms/d/YOUR_FORM_ID/formResponse";
+        "https://docs.google.com/forms/d/e/1FAIpQLSfjAWaJuHDWeGPnLJLOtNviV9Ei8nzGmfkQYqvO1VsJNMTTYQ/viewform?usp=dialog";
 
       // Google Forms field entry ID (you'll get this from your form)
       const emailEntryId = "entry.1638724089"; // Replace with actual entry ID
