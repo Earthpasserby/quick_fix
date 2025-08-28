@@ -1,5 +1,5 @@
 const MOCK_ARTISANS = [
-  { id: 1, name: "Ade – Plumber", distanceKm: 1.2, rating: 4.8 },
+  { id: 1, name: "Isak – Plumber", distanceKm: 1.2, rating: 4.8 },
   { id: 2, name: "Chioma – Electrician", distanceKm: 2.5, rating: 4.7 },
   { id: 3, name: "Kunle – Carpenter", distanceKm: 3.1, rating: 4.6 },
 ];
